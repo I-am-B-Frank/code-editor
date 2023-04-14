@@ -179,7 +179,7 @@ Although our website operates as intended, there is much that needs to be done. 
 Throughout some of our projects we added hidden extras, or what some refer to as unborn chickens on the first Sunday after the full moon that occurs on or after the spring equinox…however negated by our credibility statement at https://honestlee.info/ 
 > *We strive to be [somewhat] professional in all our pages and provide information without unnecessary commentary and hold ourselves to [some type of] high academic and professional standards.<br>We will, nevertheless, on some occasions, quite possibly, perhaps throw in some humor intermittently, inconspicuously, and intentionally appearing ignorant. We do not regret this decision; however, both rue and lament it.*
 
-Watching an episode of The Big Bang Theory, Amy and Leonard were trying to find Waldo without their glasses, and we thought, why not bury Waldo somewhere in the code?
+Watching an episode of *The Big Bang Theory* (The Re-Entry Minimization), Amy and Leonard were trying to find Waldo without their glasses, and we thought, why not bury Waldo somewhere in the code?
 
 For this project, we decided on WALDO, split into five pieces. The only hint is it they are an inline comment surrounded by an HTML comment, encapsulated in a multi-line CSS comment buried somewhere in the four pages.
 
