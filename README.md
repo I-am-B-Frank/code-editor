@@ -26,7 +26,7 @@ However, this still fails to render each time and end up using a different brows
 ## Testing
 We all should be using testing techniques before sending our product out to the world (although some of the worst UI/UX sites rank top on search results). However, we have no quick way to run code snippets; we must create a new HTML file or copy one, open a text editor, then edit and test as usual.
 
-There are many options for text editors; Notepad++ (N++), Brackets, and Sublime were mentioned the most in the Udemy web courses. N++ was the only text editor we used beforehand and had no idea about Sublime or Brackets until recently. Once taking the courses, and practicing a bit, we found that all three are really needed for a full testing experience. We wrote tutorials at https://honestlee.info/how-to/ on how to install and configure N++ for WampServer (among others).
+There are many options for text editors; Notepad++ (N++), Brackets, and Sublime were mentioned the most in the Udemy web courses. N++ was the only text editor we used beforehand and had no idea about Sublime or Brackets until recently. Once taking the courses, and practicing a bit, we found that all three are really needed for a full testing experience. We wrote tutorials at <a href='https://honestlee.info/how-to/' target='_blank'>HonestLee.info</a> on how to install and configure N++ for WampServer (among others).
 
 ## Editor
 None offer the perfect solution singly; the consoles in Brackets and Sublime are either not user friendly or cannot perform certain tasks efficiently (e.g., running PHP, some JS). Therefore, we installed all three and will utilize each for specific tasks using the stolen code editor to test our code and snippets without the need to create a new file.
