@@ -87,9 +87,10 @@ Once the code can be read easily, we can go through the HTML file to locate any 
 
 ## Step 3 – Remove Extra Spaces
 As we examine the HTML, we find MANY extra spaces, we edited to remove ONLY double spaces; this is our note:
-> After opening all needed files in N++, removed extra spaces
-> 2x spaces alone were 88,266 chars 😲
-> sep int css to ext 4 SoC
+> *After opening all needed files in N++, removed extra spaces<br>
+2x spaces alone were 88,266 chars 😲<br>
+sep int css to ext 4 SoC*
+
 The last is our note to separate the internal CSS to an external sheet for Separation of Concerns.
 
 
