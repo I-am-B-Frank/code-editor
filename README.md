@@ -27,10 +27,7 @@ However, this still fails to render each time and end up using a different brows
 ## Testing
 We all should be using testing techniques before sending our product out to the world (although some of the worst UI/UX sites rank top on search results). However, we have no quick way to run code snippets; we must create a new HTML file or copy one, open a text editor, then edit and test as usual.
 
-There are many options for text editors; Notepad++ (N++), Brackets, and Sublime were mentioned the most in the Udemy web courses. N++ was the only text editor we used beforehand and had no idea about Sublime or Brackets until recently. Once taking the courses, and practicing a bit, we found that all three are really needed for a full testing experience. We wrote [tutorials] at HonestLee.info (https://honestlee.info/how-to/ target="_blank") on how to install and configure N++ for WampServer (among others).
-
-
-
+There are many options for text editors; Notepad++ (N++), Brackets, and Sublime were mentioned the most in the Udemy web courses. N++ was the only text editor we used beforehand and had no idea about Sublime or Brackets until recently. Once taking the courses, and practicing a bit, we found that all three are really needed for a full testing experience. We wrote tutorials at https://honestlee.info/how-to/ on how to install and configure N++ for WampServer (among others).
 
 ## Editor
 None offer the perfect solution singly; the consoles in Brackets and Sublime are either not user friendly or cannot perform certain tasks efficiently (e.g., running PHP, some JS). Therefore, we installed all three and will utilize each for specific tasks using the stolen code editor to test our code and snippets without the need to create a new file.
@@ -42,7 +39,7 @@ Instead of just tearing the code editor apart and posting the final product, we 
 Just because we CAN do something does not mean we SHOULD. Although we can use emojis in our naming, we should not. We found that installing Avast, 7-Zip, and Prey locked the folder (as noted in other tutorials we wrote); because we needed to access other apps in that folder, we ended up creating a new folder, calling it !ShitThatWillFuckUpFolders.
 
 We found that some may find that offensive in our tutorials, therefore, changed it to D:\!💩ThatWill🤬UpFolders
-Now, this WILL run in the browser; however, is useless as Google states it is not recommended to use non-ASCII characters in the URL and will convert to UTF-8 encoding. This means the icons view as they would in any other editor; however, when copying the URL, the copied link becomes file:///D:/!%F0%9F%92%A9ThatWill%F0%9F%A4%ACUpFolders
+Now, this WILL run in the browser; however, is useless as [Google](https://developers.google.com/search/docs/crawling-indexing/url-structure) states it is not recommended to use non-ASCII characters in the URL and will convert to UTF-8 encoding. This means the icons view as they would in any other editor; however, when copying the URL, the copied link becomes file:///D:/!%F0%9F%92%A9ThatWill%F0%9F%A4%ACUpFolders
 
 ## Organization
 We can create a list of ordered folders for our backups. For each step or milestone, we can create a copy, rename it to the next numbered step followed by the action, then continue with the current edit, returning to the LKGC upon failure. See the next section for additional ideas.
@@ -90,9 +87,9 @@ Once the code can be read easily, we can go through the HTML file to locate any 
 
 ## Step 3 – Remove Extra Spaces
 As we examine the HTML, we find MANY extra spaces, we edited to remove ONLY double spaces; this is our note:
-After opening all needed files in N++, removed extra spaces
-2x spaces alone were 88,266 chars 😲
-sep int css to ext 4 SoC
+> After opening all needed files in N++, removed extra spaces
+> 2x spaces alone were 88,266 chars 😲
+> sep int css to ext 4 SoC
 The last is our note to separate the internal CSS to an external sheet for Separation of Concerns.
 
 
