@@ -1,4 +1,4 @@
-#<pre>                            Code-Editor Deconstruction Project</pre>
+# Code-Editor Deconstruction Project
 
 ## Summary
 Download the code editor source code from w3schools.com and deconstruct the code to build a customized local system.
@@ -20,7 +20,8 @@ One of the problems faced was that, instead of coding it right, W3 was lazy and 
 There are many moving parts; we created a list of tests to check. We were almost done to find out we removed the cursors line and had to rework several steps behind. It was at this point we created the documentation to learn from our mistakes.
 
 During testing our deconstruction, we found that using Chrome keeps a cache and running edited code was not happening without having to clear the browsing history. Instead of having to copy the path inside a manually-opened Chrome Incognito tab, we edited out N++ shortcuts.xml (see our tutorials) to include this line to create a “Chrome-nito” run option
- <Command name=”Chrome-nito” Ctrl=”no” Alt=”no” Shift=”no” Key=”0”>chrome “http://localhost/redirect.php?file=$(FULL_CURRENT_PATH)” -incognito”</Command>
+`<Command name=”Chrome-nito” Ctrl=”no” Alt=”no” Shift=”no” Key=”0”>chrome “http://localhost/redirect.php?file=$(FULL_CURRENT_PATH)” -incognito”</Command>`
+
 However, this still fails to render each time and end up using a different browser to ensure changes.
 
 ## Testing
