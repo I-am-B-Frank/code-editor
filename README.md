@@ -45,7 +45,7 @@ Now, this WILL run in the browser; however, is useless as [Google](https://devel
 We can create a list of ordered folders for our backups. For each step or milestone, we can create a copy, rename it to the next numbered step followed by the action, then continue with the current edit, returning to the LKGC upon failure. See the next section for additional ideas.
 
 ## Naming Conventions
-For personal files and folders, we use PascalCase; files and folders for development we use lowercase (case-sensitivity); we never use a space or underscore, always a hyphen: (1- Google👆 says so, 2- better UX, 3- SEO best practices, 4- underscores are not recognized).
+For personal files and folders, we use PascalCase; files and folders for development we use lowercase (case-sensitivity); we never use a space or underscore, always a hyphen: (1- Google 👆 says so, 2- better UX, 3- SEO best practices, 4- underscores are not recognized).
 
 If people have not figured this out by now, most everything involving a computer (firmware to the WiFi password) cannot have spaces in names; we even see this error: “A name must begin with a letter and cannot contain spaces.”
 Many systems misinterpret spaces, which is why we see paths in regedit, and others enclosed in quotes. In all reality, if our filename or path has no spaces, we do not need to quote.
