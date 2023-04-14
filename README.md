@@ -106,15 +106,17 @@ Since we had enough of that step, we saved, then we ran through Step 2 again to 
 This step cleans up the HTML; this removes most deprecated, outdated, or improper code used. This also includes fixing the broken FA icon that we cannot access. The only icon that comes close is the columns. It was at this point that we had an idea and rotated an icon for later use.
 
 Additionally, W3 used javascript:void(0). Not being familiar with this, we decided to research instead of just using it. We already noticed the poor coding practices and thought to examine before continuing. As an idea, a quick search revealed:
-	Should I use void 0?
-  
-Generally, you want to avoid href="javascript:void(0)" , as it will cause the browser to parse the value of the link URL, which is both costly and unnecessary. Jun 12, 2021
+
+> **Should I use void 0?**
+<br>Generally, you want to avoid href="javascript:void(0)" as it will cause the browser to parse the value of the link URL, which is both costly and unnecessary - Jun 12, 2021
 
 We need no further research on this except to code it properly.
 
 ## Step 7 – Clean JS 
 Which leads us to the next, tedious, and excruciating part, going through the 9000 lines of JavaScript. Considering we did not truly have to worry about interactivity until now, we did not concern ourselves with any scripts. We found A LOT of the scripts were Google ads; Code mirror alone (w/comments) is 11,345 lines.
+
 Notes included regex for removing comments. Research on this subject alone took several hours. This section took testing to the maximum extent. One note was to test all functionality: copy/paste/min/max/ resize H/ resizeV/drag/omit/mode/reset/overflow/fonts/icons/results/omit+create
+
 There were other options we tried that took many hours; the option is to mark (Ctrl+M), then keep the dialog open, go through, then search entire document and other tedious, useless, and wasteful options found online.
 
 This step also included removing lines with single characters; specifically over 100 lines with a single }. While there may still be a lot of code that can be omitted or edited, there is just too much for this type of project and will go into customizing.
@@ -136,22 +138,22 @@ Because the HTML is the page, the default cursor is a new line under </style>.
 
 As for customizing, we just chose colors, spent hours testing variations and what we can use in the files provided. We can go much farther than what we have done; however, is a bit much for this.
 
-#                            User Guide
+# User Guide
 This section details how to use the editor.
 
-Open the Editor
+## Open the Editor
 Run Editor.HTML; once open, there will be a note to the right of Template Options to let users know what template is used and relative notes (UI/UX purposes). A basic template is populated that allows users to use this as a boilerplate template HTML file or to edit ad-hoc.
 
 Clicking HTML replaces the template with style tags. This code editor does NOT require the header and head to run and encourages users to utilize internal over inline CSS.
 
 Clicking JS is the same as HTML, instead using script tags; notes to assist.
 
-Blank.html
+## Blank.html
 When in Editor (main) page, we have a third option named Blank. When clicking, it opens to a page with no placeholder. The user writes their own code or chooses the HTML or JS template. Additionally, this is the last page; in lieu of Blank, we used Both so the user can use CSS and JS immediately without having to copy to the editor.
 
 There is no return built to go back to the main page as this is the ultimate goal of the editor. If wanting to go back, use the browser Back button.
 
-Options
+## Options
 The navbar offers more options than W3. Although there are tips when hovering, we will discuss each.
 
 The refresh W3 used contained the void statement; we researched and another option (again, not best practices) was to use href=”#”. Instead, we are using window.location.href= window.location.href to reload itself. When in Editor, as noted, clicking Refresh loads boilerplate; Blank is blank.
@@ -168,12 +170,12 @@ Finally, because we need a way to reset Editor, we created a trash that clears t
 
 Open both in a browser, add a bookmark folder called Waldo (or Editor), put both inside so we always have a shortcut.
 
-Personal Website Notes
+# Personal Website Notes
 Although our website operates as intended, there is much that needs to be done. We placed Google in an iframe and got called out; our ads do not show (we are contemplating flexbox). Our code was written with little guidance and improper instruction. In addition to outdated resources, we have not updated our JS. WIP!
 
-Easter Eggs
+## Easter Eggs
 Throughout some of our projects we added hidden extras, or what some refer to as unborn chickens on the first Sunday after the full moon that occurs on or after the spring equinox…however negated by our credibility statement at https://honestlee.info/ 
-We strive to be [somewhat] professional in all our pages and provide information without unnecessary commentary and hold ourselves to [some type of] high academic and professional standards.
+> *We strive to be [somewhat] professional in all our pages and provide information without unnecessary commentary and hold ourselves to [some type of] high academic and professional standards.*
 
 We will, nevertheless, on some occasions, quite possibly, perhaps throw in some humor intermittently, inconspicuously, and intentionally appearing ignorant. We do not regret this decision; however, both rue and lament it.
 
