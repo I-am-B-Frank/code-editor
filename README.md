@@ -54,6 +54,7 @@ Another is to name folders logically, such as using adjectives and verbs. For ex
 
 ## Notes 
 In addition to the separate folders, create a note file in each step to detail the actions taken in this step. Details of the section notes should also include what outcome occurs when comparing the base and current code (Ex. W3 website base shakes when refreshing the page; their website is fine, our code same as base).
+
 For notes, no need to be perfect; misspellings, grammar, shorthand/abbreviations; the ones you would use for public speaking…enough to make sense to you.
 4 notes, no perfct = mispellings, grmr, shrt’hnd/abbr; the 1z u wld use 4 pub spkg…nf 2 mk cnts 2 u.
 
