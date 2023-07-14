@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang='en-US'>
+<head>
+<meta charset='utf-8'>
+<title>Editor (main)</title>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+<link rel='stylesheet' href='main.css'>
+</head>
+<body>
+<div id='th'>
+<div id='to'>
+<h1>Template Options</h1>
+<ul>
+<li><a onclick='html()'>HTML |</a></li>
+<li id='js'><a onclick='js()'>JavaScript</a></li>
+<li><a id='dn' href='blank.html' title='Open Blank Page'>| Blank</a></li>
+</ul>
+</div>
+<div id='tn'>
+<span id='x'>Basic Template -<br>Blank opens a new page</span><br>Refresh loads boilerplate
+</div>
+</div>
+<div id='co'>
+<ul>
+ <li><a id='rf' onclick='window.location.href=window.location.href' title='Refresh' class='fa fa-refresh'></a></li>
+ <li><a onclick='rotate(currentStack);cot()' id='o' title='View Horizontal' class='fa fa-columns fa-rotate-90 '></a></li>
+ <li><a onclick='mode();cmt()' title='' id='m' class='fa fa-adjust'></a></li>
+ <li><button id='run' title='Whattaya tink it duz?' onclick='run(1);'>Run ❯</button></li>
+ <li><a onclick='sav()' title='Howbow dissun?' class='fa fa-save'></a></li>
+ <li><a onclick='clr()' title='🤦 🤬 💩' class='fa fa-trash'></a></li>
+ <li id='framesize'></li>
+</ul>
+</div> 
+<div id='shield'></div>
+<div id='dragbar'></div>
+<div id='container'>
+<div id='textareacontainer'>
+<div id='textarea'>
+<div id='textareawrapper'>
+<textarea id='textareaCode'>
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+ <meta charset='utf-8'>
+ <meta name='viewport' content='width=device-width,initial-scale=1'>
+ <title>HTML Template</title>
+ <style>
+ #t{color:green;margin-left:15%}/*❌create/link to external after*/
+ </style>
+  <link rel='stylesheet' href=''><!--✅-->
+</head>
+<body>
+ <h1 id='t'>Result</h1>
+ <p>Lorem ipsum <i>abracadabra</i>
+ <br><s>Open ses</s>
+ <br>Can <u>you</u> tell me…
+ <br>how to get to <b>Sesame Street</b>?
+ </p>
+ <button type='button'onclick='document.getElementById("test").innerHTML = Date()'>
+ Click for date time GMT
+ </button>
+ <p id='test'></p>
+ <div style='color:red;font-weight:bold; background:#fff'>
+Stolen from <a href='https://www.w3schools.com/js/tryit.asp?filename=tryjs_myfirst' target='_blank'>W3 Schools</a></div>
+<script src=''></script>
+</body>
+</html>
+</textarea>
+</div>
+</div>
+</div>
+<div id='iframecontainer'>
+<div id='iframe'>
+<div id='iframewrapper'>
+</textarea>
+</div>
+</div>
+</div>
+</div>
+</script>
+<script src='main.js'></script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+*{box-sizing:border-box}
+body,h1,ul,li{margin:0 auto;padding:0}
+#th{height:57px;width:100%;display:flex;color:000}
+#to h1{border-bottom:2px solid #000;padding-bottom:2px;margin-block-end:4px;font-size:24px}
+li{cursor:pointer;display:inline;text-decoration:none}
+#js{margin:0 5px}
+#tn,#tnp{font:14px "Helvetica Neue", Helvetica, Arial, sans-serif;float:left;display:inline-block; width:auto;
+padding:5px;text-align:center}
+#tnp{padding-top:10px}
+#rf{margin-left:3px}
+#framesize{float:right;font-size:16px;margin:8px 5px 0 0;cursor:text;padding-right:8px}
+.fa{padding:5px 8px;float:left}
+#run{background:#092; color:#fff; font:18px 'Source Sans Pro', sans-serif; border-radius:6px; margin:2px;float:left}
+#run:hover{background:#0b3}
+#shield{display:none;width:100%; position:absolute; height:100%; z-index:4}
+#dragbar{position:absolute; cursor:col-resize; z-index:3; padding:5px}
+.CodeMirror-lines{overflow:visible;padding:5px 0}
+.CodeMirror.cm-s-default{line-height:normal; padding:px; height:100%; width:100%}
+#dragbar{position:absolute; cursor:col-resize; z-index:3; padding:5px}
+#shield{width:100%; position:absolute; height:100%; z-index:4}
+#textareacontainer{float:left; height:100%; width:57%}
+#iframecontainer{float:left; height:100%; width:43%}
+#textarea{height:100%; width:100%;padding:0 4px 3px 2px}
+#iframe{padding:0 4px 3px 2px; position:relative; height:100%; width:100%}
+#textareawrapper,#iframewrapper,#iframeResult, #iframeSource{width:100%;background:#fff;height:100%}
+#textareawrapper{overflow:auto; position:relative; border:1px solid #000}
+#iframewrapper{border:1px solid #000}	
+.CodeMirror-scroll{overflow:scroll;margin-bottom:-30px; margin-right:-30px;padding-bottom:30px;height:100%;position:relative;box-sizing:content-box}
+.CodeMirror pre{padding:0 5px;margin:0 15px 0 0;white-space:pre;word-wrap:normal;z-index:2;position:relative}
+div.CodeMirror-cursors{visibility:hidden}
+.CodeMirror-focused div.CodeMirror-cursors{visibility:visible}
+.CodeMirror{font:15px Consolas,Menlo,monospace;overflow:hidden;letter-spacing:-1px}
+.CodeMirror-cursor{border-left:1px solid #000;position:absolute}
+.CodeMirror-vscrollbar, .CodeMirror-hscrollbar, .CodeMirror-scrollbar-filler, .CodeMirror-gutter-filler{position:absolute;z-index:3;display:none}
+.CodeMirror-vscrollbar{right:0; top:0;overflow-x:hidden;overflow-y:scroll}
+.CodeMirror-hscrollbar{bottom:0; left:0; overflow-y:hidden; overflow-x:scroll}
+.CodeMirror-wrap pre{word-wrap:break-word;white-space:pre-wrap;word-break:normal}
+.CodeMirror-linebackground{position:absolute; left:0; right:0; top:0; bottom:0; z-index:0}
+.CodeMirror-measure{position:absolute; width:100%; height:0; overflow:hidden; visibility:hidden}
+#to li,#dn{cursor:pointer;display:inline;color:#00f;text-decoration:none}
+#to li:hover,#dn:hover{color:#f00}
+#to{background:#fd9;border:1px solid #000;border-bottom:0;text-align:center;width:195px;padding:0;height:100%}
+body.darktheme #to{background:#fec}
+#co{width:100%;height:35px;background:#eee; color:#999;font-size:25px;border-top:1px solid #000}
+.fa:hover{background:#ccc}
+#container{background:#eee; width:100%;cursor:text;max-height:100%;bottom:3px; position:absolute;position:absolute;top:92px;float:left}
+body.darktheme #co,body.darktheme #container{background:#999;color:#333}
+body.darktheme .fa:hover{background:#666}
+body.darktheme #tn{color:#ccc}
+body.darktheme #th,body.darktheme #tn,body.darktheme .CodeMirror{background:#002b36}
+body.darktheme .CodeMirror-cursor{border-left:1px solid #fff}
+.CodeMirror-focused .CodeMirror-selected{background:#ccf}
+.CodeMirror-selected{background:#ccc}
+body.darktheme .CodeMirror-focused .CodeMirror-selected{background:#66f}
+body.darktheme .CodeMirror-selected{background:#777}
+span *.cm-comment{color:#060;font-style: italic}
+body.darktheme span *.cm-comment{color:#093;font-style: italic}
+.cm-m-xml{color:#000}
+.cm-meta{color:#999;font-style: italic}
+.cm-tag {color: #936}
+.cm-bracket{color:#963}
+.cm-attribute {color: #c30}
+.cm-string {color: #060}
+.cm-variable {color:black}
+.cm-m-css.cm-variable {color:mediumblue}
+.cm-variable-3{color: #f93}
+.cm-property {color:#c9f}
+.cm-m-css.cm-tag{color: #f00}
+.cm-builtin {color: #00f}
+.cm-qualifier {color: #3cf}
+body.darktheme .cm-m-css{color:#f93}
+body.darktheme .cm-m-xml{color:#949496}
+body.darktheme .cm-meta {color: #666}
+body.darktheme .cm-tag {color: #268bd2}
+body.darktheme .cm-bracket {color: #0f0}
+body.darktheme .cm-attribute {color: #f6f}/* */
+body.darktheme .cm-string {color: #0cc}
+body.darktheme .cm-variable {color:#88c999}
+body.darktheme .cm-m-javascript.cm-variable {color:white}
+body.darktheme .cm-m-css.cm-variable {color:#f00}/**/
+body.darktheme .cm-property  {color: #3f9}
+body.darktheme .cm-m-javascript.cm-property {color:white}
+body.darktheme .cm-builtin{color:#cc0}
+body.darktheme .cm-qualifier {color: #ff9999}
+body.darktheme .cm-keyword {color: #88c999}
+body.darktheme .cm-m-javascript.cm-keyword {color: #cc0}
+body.darktheme .cm-number {color: #88c999}
+body.darktheme .cm-m-javascript.cm-number {color: #80b6ff}
+body.darktheme .cm-def {color: white}
+body.darktheme .cm-m-javascript.cm-string {color: #88c999}
